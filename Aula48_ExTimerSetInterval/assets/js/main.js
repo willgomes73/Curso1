@@ -40,6 +40,7 @@ document.addEventListener('click',function(e){
 // se o evento clicado for zerar faça isso
     if(el.classList.contains('zerar')){
         clearInterval(timer);
+        //retirara a cor vermelha do pausado
         relogio.classList.remove('pausado');
         relogio.innerHTML = '00:00:00';
         segundos = 0;
