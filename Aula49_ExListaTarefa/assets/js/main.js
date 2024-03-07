@@ -99,7 +99,7 @@ function addTarefasSlvas() {
     const tarefas = localStorage.getItem('tarefas');
     const listaTarefas = JSON.parse(tarefas);
 
-    for (let tarega of listaTarefas) {
+    for (let tarefa of listaTarefas) {
         criaTarefa(tarefa);
     }
 }
