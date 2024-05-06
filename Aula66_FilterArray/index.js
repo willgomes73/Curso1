@@ -9,6 +9,9 @@ const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
 }
 
 //const filtrados = numeros.filter(callbackFilter);*/
+const filtrados = numeros.filter(valor => valor > 10);//uma linha ou retorn
+console.log(filtrados);
+
 const pessoas = [
     {nome: 'William', idade:21},
     {nome: 'Wilson', idade:51},
@@ -17,8 +20,7 @@ const pessoas = [
     {nome: 'Winderson', idade:31},
     {nome: 'Maria', idade:80},
 ];
-const filtrados = numeros.filter(valor => valor > 10);//uma linha ou retorn
-console.log(filtrados);
+
 
 //retorne as pessoas que tem o nome com 5 letras ou mais
 const pessoaComNomeGrand = pessoas.filter(obj => obj.nome.length >= 7);
