@@ -34,7 +34,7 @@ const comIds = pessoas.map(function(obj,indice) {
 });
 const comIdss = pessoas.map(function(obj,indice) {
     const newobj = {...obj };
-    newobj,id = indice;
+    newobj.id = indice;
     return newobj;
 });
 console.log(comIds,comIdss);
