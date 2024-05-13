@@ -59,9 +59,10 @@ function Pessoas(nome, sobrenome) {
 // p2 = (NOVEENDEREÇO MEMORIA) ERRADO
 // p2.ENDEREÇOMEMORIA = NOVO VALOR (CERTO)
 const p2 = new Pessoas('Wilder','Souza');
-p2.nome = 'Certo';
+//p2.nome = 'Certo';
 Object.freeze(p2);//travamos o objeto
 const p3 = new Pessoas('Julia','Silva');
+p2.nome = 'Guilherme';
 console.log(p2);
 
 
